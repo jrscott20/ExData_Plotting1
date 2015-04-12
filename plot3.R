@@ -47,4 +47,3 @@ dev.off()
 
 dev.off()
 
-dev.off()

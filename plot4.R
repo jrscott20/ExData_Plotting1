@@ -50,9 +50,7 @@ with(d2,plot(Time,Global_reactive_power,type="l",
              xlab="datetime",ylab="Global_reactive_power"))
 
 #save with width and height of 480 pixels
-png(filename="C:/Users/Jason/datasciencecoursera/ExploratoryDataProjects/ExData_Plotting1/plot3.png",width=480,height=480)
-
-dev.off()
+png(filename="C:/Users/Jason/datasciencecoursera/ExploratoryDataProjects/ExData_Plotting1/plot4.png",width=480,height=480)
 
 dev.off()
 
