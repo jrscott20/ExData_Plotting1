@@ -21,7 +21,7 @@ d2$Time<-strptime(paste(d2$Date,d2$Time),format='%d/%m/%Y %H:%M:%S',tz="")
 d2$Date<-as.Date(d2$Date,format='%d/%m/%Y')
 
 ##plot 1
-png(file="C:/Users/Jason/Dropbox/Coursera/04_ExploratoryAnalysis/plot1.png")
+png(file="C:/Users/Jason/datasciencecoursera/ExploratoryDataProjects/ExData_Plotting1/plot1.png")
 hist(d2$Global_active_power,
      col="red", xlab="Global Active Power (kilowatts)",
      main="Global Active Power",ylim=c(0,1300))
@@ -30,6 +30,7 @@ axis(2,at=c(1000))
 #save with width and height of 480 pixels
 png(filename="plot1.png",width=480,height=480)
 
+dev.off()
 dev.off()
 
 
